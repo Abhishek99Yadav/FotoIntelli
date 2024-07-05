@@ -16,6 +16,13 @@
 		0307EA9E2C374C8F00824FD8 /* FotoIntelliUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0307EA9D2C374C8F00824FD8 /* FotoIntelliUITests.swift */; };
 		0307EAA02C374C8F00824FD8 /* FotoIntelliUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0307EA9F2C374C8F00824FD8 /* FotoIntelliUITestsLaunchTests.swift */; };
 		0307EAAD2C374CFD00824FD8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0307EAAC2C374CFD00824FD8 /* MainViewController.swift */; };
+		0307EAAF2C37524D00824FD8 /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0307EAAE2C37524D00824FD8 /* SplashScreenViewController.swift */; };
+		0307EAB12C3754B800824FD8 /* PhotoEditingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0307EAB02C3754B800824FD8 /* PhotoEditingViewController.swift */; };
+		0307EAB32C3754D700824FD8 /* MLFeatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0307EAB22C3754D700824FD8 /* MLFeatureViewController.swift */; };
+		0307EAB52C3754FF00824FD8 /* ARFeatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0307EAB42C3754FF00824FD8 /* ARFeatureViewController.swift */; };
+		036DB0572C37CF94007D5FEB /* UIImage + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036DB0562C37CF94007D5FEB /* UIImage + Extension.swift */; };
+		036DB05B2C37D104007D5FEB /* TorchModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036DB05A2C37D104007D5FEB /* TorchModule.swift */; };
+		036DB05D2C37D126007D5FEB /* Tensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036DB05C2C37D126007D5FEB /* Tensor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		0307EA9D2C374C8F00824FD8 /* FotoIntelliUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotoIntelliUITests.swift; sourceTree = "<group>"; };
 		0307EA9F2C374C8F00824FD8 /* FotoIntelliUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotoIntelliUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0307EAAC2C374CFD00824FD8 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		0307EAAE2C37524D00824FD8 /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
+		0307EAB02C3754B800824FD8 /* PhotoEditingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoEditingViewController.swift; sourceTree = "<group>"; };
+		0307EAB22C3754D700824FD8 /* MLFeatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLFeatureViewController.swift; sourceTree = "<group>"; };
+		0307EAB42C3754FF00824FD8 /* ARFeatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARFeatureViewController.swift; sourceTree = "<group>"; };
+		036DB0562C37CF94007D5FEB /* UIImage + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage + Extension.swift"; sourceTree = "<group>"; };
+		036DB05A2C37D104007D5FEB /* TorchModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorchModule.swift; sourceTree = "<group>"; };
+		036DB05C2C37D126007D5FEB /* Tensor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tensor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +97,7 @@
 				0307EA922C374C8F00824FD8 /* FotoIntelliTests */,
 				0307EA9C2C374C8F00824FD8 /* FotoIntelliUITests */,
 				0307EA7A2C374C8D00824FD8 /* Products */,
+				2782C49D2A23501DAD6E4150 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +121,13 @@
 				0307EA872C374C8F00824FD8 /* LaunchScreen.storyboard */,
 				0307EA8A2C374C8F00824FD8 /* Info.plist */,
 				0307EAAC2C374CFD00824FD8 /* MainViewController.swift */,
+				0307EAAE2C37524D00824FD8 /* SplashScreenViewController.swift */,
+				0307EAB02C3754B800824FD8 /* PhotoEditingViewController.swift */,
+				0307EAB22C3754D700824FD8 /* MLFeatureViewController.swift */,
+				0307EAB42C3754FF00824FD8 /* ARFeatureViewController.swift */,
+				036DB0562C37CF94007D5FEB /* UIImage + Extension.swift */,
+				036DB05A2C37D104007D5FEB /* TorchModule.swift */,
+				036DB05C2C37D126007D5FEB /* Tensor.swift */,
 			);
 			path = FotoIntelli;
 			sourceTree = "<group>";
@@ -125,6 +147,13 @@
 				0307EA9F2C374C8F00824FD8 /* FotoIntelliUITestsLaunchTests.swift */,
 			);
 			path = FotoIntelliUITests;
+			sourceTree = "<group>";
+		};
+		2782C49D2A23501DAD6E4150 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +287,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				036DB05D2C37D126007D5FEB /* Tensor.swift in Sources */,
+				036DB05B2C37D104007D5FEB /* TorchModule.swift in Sources */,
 				0307EAAD2C374CFD00824FD8 /* MainViewController.swift in Sources */,
 				0307EA7D2C374C8D00824FD8 /* AppDelegate.swift in Sources */,
+				0307EAB52C3754FF00824FD8 /* ARFeatureViewController.swift in Sources */,
+				0307EAB32C3754D700824FD8 /* MLFeatureViewController.swift in Sources */,
+				0307EAB12C3754B800824FD8 /* PhotoEditingViewController.swift in Sources */,
+				036DB0572C37CF94007D5FEB /* UIImage + Extension.swift in Sources */,
+				0307EAAF2C37524D00824FD8 /* SplashScreenViewController.swift in Sources */,
 				0307EA7F2C374C8D00824FD8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,7 +404,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -425,7 +461,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -450,6 +486,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -478,6 +515,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -500,7 +538,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X2V6AHB2YS;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AbhishekYadav.FotoIntelliTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -520,7 +558,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X2V6AHB2YS;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AbhishekYadav.FotoIntelliTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -539,6 +577,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X2V6AHB2YS;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AbhishekYadav.FotoIntelliUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -557,6 +596,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X2V6AHB2YS;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AbhishekYadav.FotoIntelliUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
