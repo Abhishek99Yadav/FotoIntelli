@@ -4,10 +4,14 @@
 <dict>
 	<key>NSCameraUsageDescription</key>
 	<string>FotoIntelli requires access to the camera to enable augmented reality features.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>FotoIntelli need access to your photo library to save edited photos.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>FotoIntelli need access to your photo library to load photos for editing.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
-		<false/>
+		<true/>
 		<key>UISceneConfigurations</key>
 		<dict>
 			<key>UIWindowSceneSessionRoleApplication</key>
