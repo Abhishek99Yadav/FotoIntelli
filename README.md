@@ -1,8 +1,4 @@
-# FotoIntelli
 
-Here's an impressive README for your FotoIntelli app:
-
----
 
 # FotoIntelli
 
